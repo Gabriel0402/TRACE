@@ -1,0 +1,114 @@
+{
+  "release": "TRACE_dataset_v1",
+  "source_snapshot": "commit-explicit-first-v1",
+  "experiment_version": "trigger_grounding_v1",
+  "instances": 500,
+  "temporal_structure_types": 10,
+  "split_counts": {
+    "train": 350,
+    "val": 62,
+    "test": 70
+  },
+  "unassigned_instances": [
+    "avoid_unsafe_contact/example40",
+    "avoid_unsafe_contact/example41",
+    "branch_after_selection/example40",
+    "branch_after_selection/example41",
+    "commit_container/example40",
+    "commit_container/example41",
+    "compound_non_markov/example40",
+    "compound_non_markov/example41",
+    "disjunctive_strategy/example40",
+    "disjunctive_strategy/example41",
+    "maintain_after_activation/example40",
+    "maintain_after_activation/example41",
+    "ordered_delivery/example40",
+    "ordered_delivery/example41",
+    "repeated_collection/example40",
+    "repeated_collection/example41",
+    "within_deadline/example40",
+    "within_deadline/example41"
+  ],
+  "by_temporal_structure_type": {
+    "avoid_unsafe_contact": {
+      "total": 50,
+      "test": 7,
+      "train": 35,
+      "val": 6,
+      "unassigned": 2
+    },
+    "branch_after_selection": {
+      "total": 50,
+      "train": 35,
+      "unassigned": 2,
+      "val": 6,
+      "test": 7
+    },
+    "commit_container": {
+      "total": 50,
+      "train": 35,
+      "unassigned": 2,
+      "test": 7,
+      "val": 6
+    },
+    "compound_non_markov": {
+      "total": 50,
+      "train": 35,
+      "test": 7,
+      "unassigned": 2,
+      "val": 6
+    },
+    "disjunctive_strategy": {
+      "total": 50,
+      "val": 6,
+      "train": 35,
+      "test": 7,
+      "unassigned": 2
+    },
+    "maintain_after_activation": {
+      "total": 50,
+      "train": 35,
+      "test": 7,
+      "val": 6,
+      "unassigned": 2
+    },
+    "ordered_delivery": {
+      "total": 50,
+      "train": 35,
+      "test": 7,
+      "unassigned": 2,
+      "val": 6
+    },
+    "repeated_collection": {
+      "total": 50,
+      "test": 7,
+      "train": 35,
+      "val": 6,
+      "unassigned": 2
+    },
+    "visit_distinct": {
+      "total": 50,
+      "test": 7,
+      "train": 35,
+      "val": 8
+    },
+    "within_deadline": {
+      "total": 50,
+      "train": 35,
+      "val": 6,
+      "unassigned": 2,
+      "test": 7
+    }
+  },
+  "files": 11001,
+  "bytes": 773379074,
+  "validation": {
+    "json_files_parsed": 9001,
+    "png_files_verified": 1000,
+    "symlinks_materialized": 1000,
+    "split_instance_overlap": 0,
+    "trace_event_and_saved_automaton_checks": 6550,
+    "all_split_paths_resolve": true
+  },
+  "validation_scope": "File integrity, split membership, action/AP mapping, and trace labels against saved automata; not a new model experiment or independent language-semantic audit."
+}

@@ -1,0 +1,43 @@
+# Local system and editor files
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Downloaded data, weights, and experiment outputs
+/dataset/
+/data/
+/TRACE_dataset_v1/
+/TRACE_data_upload/
+/checkpoints/
+/logs/
+/results/
+/tmp/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
